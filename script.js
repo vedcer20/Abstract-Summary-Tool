@@ -170,7 +170,7 @@ btn.addEventListener("click",()=>{
         let result = submit();
         if(result){
             if(result=="puncMiss"){
-                convey("Make sure sentences are sepeated by punctuation [.!?]","color:red;")
+                convey("Make sure sentences are seperated by punctuation [.!?]","color:red;")
             }
             else{
                 let extra = "";
